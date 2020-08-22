@@ -13,11 +13,10 @@
   flex-flow: row;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   height: 60px;
   flex-wrap: nowrap;
   padding: 10px 0;
-  position: relative;
+  align-content: center;
 }
 
 #title {
@@ -26,8 +25,10 @@
   font-size: 24px;
   display: flex;
   flex-flow: row;
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
+  justify-content: start;
+  align-items: flex-start;
 }
 
 #logo {
@@ -38,7 +39,6 @@
 #nav-bar {
   background-color: #fff;
   width: 100vw;
-  max-width: 1600px;
   align-items: center;
   justify-content: center;
   height: auto;
@@ -54,7 +54,13 @@
   font-weight: 500;
   align-content: center;
   font-size: 16px;
-  padding-left: .5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+#nav-links:hover {
+  color: #7f187f;
+  text-decoration: underline;
 }
 
 #sale {
@@ -63,13 +69,19 @@
   font-size: 16px;
   padding-left: 5px;
   padding-right: 5px;
+  padding-left: 1rem;
+}
+
+#sale:hover {
+  color: #7f187f;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #product-path-container{
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100vw;
@@ -79,9 +91,9 @@
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 15px;
   width: 90vw;
   color: #959595;
 }
@@ -94,7 +106,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
-  width: 90vw;
+  width: 85vw;
 }
 
 #main-carousel {
@@ -154,8 +166,8 @@
 }
 
 #more-box {
-  height: 125px;
-  width: 300px;
+  height: 150px;
+  width: 400px;
   display: flex;
   margin: 24px;
   margin-top: 0;
@@ -165,8 +177,8 @@
   align-items: center;
   justify-content: center;
   color: #615c65;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 400;
   font-style: italic;
   box-shadow: rgba(34, 25, 36, 0.2) 0px 3px 6px;
 }
@@ -189,6 +201,8 @@
   font-weight: 400px;
 }
 
-#about {
-
+#footer-links:hover {
+  color: #7f187f;
+  text-decoration: underline;
+  cursor: pointer;
 }
