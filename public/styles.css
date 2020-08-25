@@ -125,6 +125,8 @@
   background-color: #fff;
   padding-bottom: 24px;
   padding-top: 12px;
+  width: 100%;
+  max-width: 468px;
 }
 
 #customers-also-viewed {
