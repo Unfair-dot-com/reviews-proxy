@@ -8,7 +8,7 @@
 ## Usage
 
 This modue requires three addional services: <em>Reviews, Main Carousel,</em> and <em>Product Detail Carousel.</em> <br />
-Please see [Related Projects](#related-projects) for more infromation on how to setup and install these dependencies. 
+Please see [Related Projects](#related-projects) for more information on how to setup and install these dependencies. 
 
 To set up this proxy, simply run `npm install` followed by `npm run build`
 
