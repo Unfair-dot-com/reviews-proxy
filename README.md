@@ -1,39 +1,19 @@
-# Project Name
-
-> Project description
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+# Homeland Market: Ecommerce Product Page
 
 ## Table of Contents
 
 1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+2. [Related Projects](#related-projects)
 
 ## Usage
 
-> Some usage instructions
+This modue requires three addional services: <em>Reviews, Main Carousel, Product Detail Carousel.</em>
+Please see [Related Projects](#related-projects) for more infromation on how to setup and install these dependencies. 
 
-## Requirements
+To set up this proxy, simply run `npm install` followed by `npm run build`
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+## Related Projects
 
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+  - https://github.com/homeland-market/reviews
+  - https://github.com/homeland-market/fec-main-carousel
+  - https://github.com/homeland-market/product-detail-carousel
