@@ -1,7 +1,7 @@
 {
   "name": "reviews-proxy",
   "version": "1.0.0",
-  "description": "Unfair.com proxy server",
+  "description": "Homelandmarket.com proxy server",
   "main": "index.js",
   "scripts": {
     "build": "node server/index.js"
